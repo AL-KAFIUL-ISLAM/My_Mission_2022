@@ -2,18 +2,25 @@ body{
  margin: 0px 150px;
 }
 .highlight{
-    color: orange;
+    color: #11AFFB;
 }
-p{
-    text-align: justify;
+#top-line{
+    font-family: 'Acme', sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    border-left: #07328f solid 5px;
+    border-radius: 5px;
 }
-h1{
+#top-line2{
+    font-family: 'Bebas Neue', cursive;
     font-size: 50px;
-    border-left: solid 5px;
-    border-radius: 15px;
+    color: rgb(37, 3, 90);
+    font-weight: 700;
+    text-align: center;
 }
 h2{
     font-size: 40px;
+    font-family: 'Bree Serif', serif;
 }
 .flex-view{
     display: flex;
@@ -22,11 +29,19 @@ h2{
 .half-width{
     width: 50%;
 }
-#image1{
-    width: 90%;
+.half-width img{
+    width: 100%;
+    margin-top: 60px;
 }
 #block1{
-    padding: 100px 100px 0px 0px ;
+    padding: 90px 100px 0px 0px ;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.733),rgba(240, 85, 240, 0.884));
+    border-radius: 10px;
 }
 .box-style{
     padding: 10px;
@@ -37,24 +52,30 @@ h2{
     width: 50%;
 }
 #box1{
-      background-color: tomato;
+      background-color: rgb(247, 230, 228);
       margin-right: 25px;
       
 }
 #box2{
- background-color: turquoise;
+ background-color: rgb(201, 247, 242);
 }
 #box3{
-   background-color: violet;
+   background-color: rgb(210, 216, 245);
    margin-left: 25px;
    
 }
+h3{
+    font-family: 'Bree Serif', serif;
+  font-weight: 600;
+  font-size: 20px;
+}
 .block2{
-    margin-top: 80px;
+    margin-top: 100px;
     width: 70%;
 }
 .block2 img{
     width: 70%;
+    margin-top: -10px;
 }
 .block3{
     margin-top: 50px;
@@ -65,25 +86,37 @@ h2{
     margin-left: 150px;
 }
 #form-title{
+    color: rgb(6, 6, 124);
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px;
+}
+#form-txt{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
 }
 .form-section{
-    background-color: cadetblue;
+    background-color: rgba(127, 203, 247, 0.521);
     padding: 10px 0px 50px 0px;
-    margin: 50px 0px;
+    margin: 50px 50px;
     border-radius: 15px;
+    border: 3px dotted rgb(6, 6, 124);
 }
 ul {
     list-style: none;
   }
 form {
+    background-image: radial-gradient(rgb(170, 242, 245),rgb(6, 6, 124));
     margin: 20px auto 50px auto;
     width: 500px;
     padding: 15px;
-    border: 1px solid #CCC;
+    border: double 3px black;
     border-radius: 15px;
+    box-shadow: 10px 10px 50px rgb(73, 72, 72);
   }
   label {
+      color: white;
     display: inline-block;
     width: 90px;
     text-align: right;
@@ -92,15 +125,20 @@ form {
     vertical-align: top;
   }
   button{
-    background-color: blue;
-    padding: 10px 25px;
+      font-weight: 700;
+    background-color:rgb(104, 241, 212);
+    padding: 10px 15px;
     border-radius: 5px;
-    color: white;
+    color: rgb(6, 6, 124);
     margin: 10px 0px 0px 92px;
   }
   footer{
+      color: white;
       text-align: center;
-      background-color: coral;
+      font-family: 'Dancing Script', cursive;
+      font-size: 20px;
+      font-weight: 700;
+      background-color: rgb(5, 5, 105);
       padding: 10px 0px;
       margin: 0px -150px;
   }
