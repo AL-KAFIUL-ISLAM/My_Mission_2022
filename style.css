@@ -1,5 +1,4 @@
 body{
- margin: 0;
  margin: 0px 150px;
 }
 .highlight{
@@ -29,12 +28,6 @@ h2{
 #block1{
     padding: 100px 100px 0px 0px ;
 }
-button{
-    background-color: blue;
-    padding: 10px 50px;
-    border-radius: 5px;
-    color: white;
-}
 .box-style{
     padding: 10px;
     border-radius: 20px;
@@ -56,21 +49,58 @@ button{
    margin-left: 25px;
    
 }
-.sec3{ 
-    margin-top: 80px;
-}
-
 .block2{
-   width: 170%;
-
-
+    margin-top: 80px;
+    width: 70%;
 }
 .block2 img{
-    width: 50%;
+    width: 70%;
 }
-
-
 .block3{
- width: 70%;
-      
+    margin-top: 50px;
+    width: 70%;
 }
+.block3 img{
+    width: 70%;
+    margin-left: 150px;
+}
+#form-title{
+    text-align: center;
+}
+.form-section{
+    background-color: cadetblue;
+    padding: 10px 0px 50px 0px;
+    margin: 50px 0px;
+    border-radius: 15px;
+}
+ul {
+    list-style: none;
+  }
+form {
+    margin: 20px auto 50px auto;
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+  }
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  textarea {
+    vertical-align: top;
+  }
+  button{
+    background-color: blue;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0px 0px 92px;
+  }
+  footer{
+      text-align: center;
+      background-color: coral;
+      padding: 10px 0px;
+      margin: 0px -150px;
+  }
